@@ -1,0 +1,589 @@
+/*===============================
+** RESPONSIVE CSS
+================================*/
+
+@media only screen and (max-width: 1200px) {
+    body {overflow-x: hidden !important;}
+    .header-area .manue-area ul li a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .aboutme-area .about-info h2 {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    #about {padding-bottom: 50px;}    
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+    .services-area .single-services .service-content {
+        top: 50%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 991px) {
+    .progress-bar1 {
+        height: 70px;
+        width: 70px;
+    }
+    #about {padding-bottom: 0;}
+    .header-area .logo-area a {font-size: 30px;}
+    .header-area .manue-area {padding-top: 10px;}
+    .header-area .manue-area ul li a {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .copy-right {text-align: center;}
+    .foter-area .foter-social ul {
+        text-align: center;
+    }
+    .progress-circle {
+        margin-bottom: 70px;
+    }
+    .slider-area .slider-2 p,
+    .slider-area .slider-2 p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .slider-area .slider-2 div.slider-botton,
+    .slider-area .slider-2 div.slider-botton {
+        margin-top: 20px;
+    }
+    .slider-area .slider-2 h1 {
+        font-size: 35px;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin: 0;
+    }
+    .preview-2 .nivo-controlNav {
+        display: none;
+    }
+    .header-area,
+    .preview-2 .nivo-controlNav {
+        display: none;
+    }
+    .mobile-menu-area {
+        display: block;
+    }
+    .aboutme-area .about-info ul li {
+        margin-bottom: 10px;
+    }
+    .aboutme-area .about-info {
+        padding-bottom: 40px;
+    }
+    .aboutme-area .about-info h2::before {
+        margin: auto;
+        right: 0;
+    }
+    .slider-botton .title1 ul {
+        float: left;
+    }    
+    .aboutme-area .about-info .btn {
+        margin-top: 20px;
+    }
+    /*.nivoSlider img {
+        height: 550px !important;
+    }*/
+    .comment-form {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    /*.nivoSlider img {
+        height: 500px !important;
+    }*/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    section .container {
+        padding: 60px 0;
+    }
+    #about .container {
+        padding-top: 40px;
+    }
+    .header-area,
+    .preview-2 .nivo-controlNav {
+        display: none;
+    }
+    .mobile-menu-area {
+        display: block;
+    }
+    .slider-area .slider-2 p,
+    .slider-area .slider-2 p {
+        padding: 0 8%;
+        font-size: 14px;
+        display: none;
+        text-align: left;
+    }
+    .slider-area .slider-2 div.slider-botton {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .slider-botton .title1 ul {
+        float: left;
+    }
+    .slider-area .slider-2 h1 {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin: 15px 0;
+        text-align: left;
+    }
+    header .header-top-area .header-top-left ul li {
+        font-size: 13px;
+        margin: 0 3px;
+    }
+    .slider-area .slider-2 div.title2 {
+        font-size: 18px;
+    }
+    .slider-area {
+        margin: 0;
+    }
+    .slider-area .single-slider h2 {
+        font-size: 25px;
+    }
+    .services-area .single-services .service-content {
+        top: 85%;
+    }
+    .team-area .single-member .team-content {
+        bottom: 0;
+    }
+    .services-area .single-services .service-content {
+        top: 70%;
+    }
+    .aboutme-area .about-img {
+        position: inherit;
+        text-align: center;
+        display: block;
+    }
+    .aboutme-area .about-info {
+        text-align: center;
+    }
+    .aboutme-area .about-info h2::before {
+        margin: auto;
+        right: 0;
+    }
+    .interest-area .interset-text h3 {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    article.single-news {
+        text-align: center;
+    }
+    .news-area .single-news .newn-info .news-content p {
+        text-align: center;
+    }
+    /* spacing styling */
+    .aboutme-area .about-info {
+        margin-bottom: 0;
+    }
+    .about-img::before {display: none;}
+    .owl-carousel.owl-drag .owl-item {
+        padding: 0 20px;
+        margin-right: 0;
+    }
+    .about-info p {
+        text-align: justify;
+    }
+    .team-area .single-member {
+        max-height: 100%;
+    }
+    .team-area .owl-carousel.owl-drag .owl-item {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about-me .tab-content {
+        margin-bottom: 40px;
+    }
+    .contact-form {
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    .v-bar,
+    .v-bar::before, 
+    .v-bar::after {
+        height: 1px;
+        width: 200px;
+        right: 0;
+        top: auto;
+        transform: none;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    .v-bar::before {
+        width: 150px;
+        bottom: 10px;
+    } 
+    .v-bar::after {
+        width: 150px;
+        top: 10px;
+    }
+    .single-info {
+        padding-left: 0;
+        text-align: center;
+    }
+    .cont-info-img {
+        display: block;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    #slider-testominial .owl-dots {
+        top: 108%;
+    }
+    .skill-area .ab-count .about-counter-list .informations {
+        margin-bottom: 30px;
+    }
+    .contractme-area .interset-text h2 {
+        margin-bottom: 25px;
+    }
+    .contractme-area .btn {
+        max-width: 149px;
+        margin: auto;
+        display: block;
+    }
+    .mouse {
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .input-field {width: 100%;}
+    .blog-single-post blockquote {
+        background: #f7f7f7;
+        margin-left: 0;
+        padding: 25px 0 25px 45px;
+        border: none;
+        position: relative;
+    }
+    .blog-single-post blockquote::before {
+        font-size: 25px;
+        left: 10px;
+    }
+    .commnents ul li {
+        position: relative;
+        padding-left: 0;
+    }
+    .commnents ul li .user-thumb {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .commnents ul li ul li {
+        margin-left: 15px;
+    }
+    .commnents ul li ul li .user-thumb {        
+        top: 0;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 479px) {
+    .s-tb-c {
+        left: 0;
+    }
+    .header-area {
+        display: none;
+    }
+    .mobile-menu-area {
+        display: block;
+    }
+    .slider-area .slider-2 p,
+    .slider-area .slider-2 p {
+        padding: 0 8%;
+        font-size: 14px;
+        display: none;
+        text-align: left;
+    }
+    .slider-area .slider-2 h1 {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+    }
+    .slider-area .slider-2 div.slider-botton,
+    .slider-area .slider-2 div.slider-botton {
+        text-align: center;
+        margin-left: 15px;
+    }
+    .s-tb-c {
+        display: table-caption;
+        vertical-align: middle;
+        padding: 25px;
+    }
+    header .header-top-area .header-top-left ul li {
+        font-size: 13px;
+        margin: 0 3px;
+    }
+    .slider-area .slider-2 div.title2 {
+        font-size: 16px;
+    }
+    .nivo-directionNav a {
+        top: 24%;
+    }
+    .preview-2 .nivo-directionNav a.nivo-nextNav::before,
+    .preview-2 .nivo-directionNav a.nivo-prevNav::before {
+        font: 400 16px/30px FontAwesome;
+        height: 30px;
+        width: 30px;
+    }
+    .slider-area .single-slider ul li a {
+        padding: 3px 10px;
+    }
+    .slider-area .single-slider h2 {
+        font-size: 16px;
+    }
+    .about-info p {
+        text-align: left;
+    }
+    .title3 {
+        margin: 0;
+        text-align: center;
+        font-size: 24px;
+    }
+    .about-info h3 {
+        padding: 0 30px;
+    }
+    .aboutme-area .about-info ul li {
+        text-align: left;
+    }
+    .services-area .single-services .service-content {
+        top: 55%;
+    }
+    .aboutme-area .about-img {
+        position: inherit;
+    }
+    .progress-bar1 {
+        position: relative;
+        height: 100px;
+        width: 22%;
+        float: left;
+        margin-left: 3%;
+    }
+    .about-img {
+        margin-top: 0px;
+    }
+    .aboutme-area .about-info .btn {
+        margin-top: 0;
+    }
+    .aboutme-area .about-info ul li {
+        margin-bottom: 10px;
+    }
+    .aboutme-area .about-info {
+        text-align: center;
+    }
+    .aboutme-area .about-info h2::before {
+        margin: auto;
+        right: 0;
+    }
+    .interest-area .interset-text h3 {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    article.single-news {
+        text-align: center;
+    }
+    .news-area .single-news .newn-info .news-content p {
+        text-align: center;
+    }
+    .contractme-area .interset-text h3 {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    .row.slide-team.owl-carousel.owl-theme {
+        margin: 0;
+        text-align: center;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    /* spacing styling */
+    .section-title h2 {
+        font-size: 30px;
+        font-weight: 400
+    }
+    .section-title {
+        max-width: 320px;
+    }    
+    .interest-area .interset-text h2 {font-size: 26px;}
+    .mouse {
+        bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 360px) {
+    .progress-bar1:first-child {margin-left: 0;}
+    .nivo-caption {
+        top: 0;
+    }
+    .form-field {
+        width: 100%;
+    }
+    .form-field:first-of-type {
+        margin-right: 0; 
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+    .header-area {
+        display: none;
+    }
+    /*.nivoSlider img {
+        height: 300px !important;
+    }*/
+    .slider-area .slider-2 div.slider-botton ul li {
+        margin-bottom: 25px;
+    }
+    .mobile-menu-area {
+        display: block;
+    }
+    .slider-area .slider-2 p,
+    .slider-area .slider-2 p {
+        padding: 0 17%;
+        font-size: 14px;
+        display: none;
+    }
+    .slider-area .slider-2 div.slider-botton,
+    .slider-area .slider-2 div.slider-botton {
+        margin-top: 10px;
+    }
+    .slider-area .slider-2 h1 {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin: 0;
+    }
+    header .header-top-area .header-top-left ul li {
+        font-size: 13px;
+        margin: 0 3px;
+    }
+    .slider-area .slider-2 div.title2 {
+        font-size: 16px;
+    }
+    .slider-area .single-slider h2 {
+        font-size: 16px;
+    }
+    .nivo-directionNav a {
+        top: 24%;
+    }
+    .preview-2 .nivo-directionNav a.nivo-nextNav::before,
+    .preview-2 .nivo-directionNav a.nivo-prevNav::before {
+        font: 400 16px/30px FontAwesome;
+        height: 30px;
+        width: 30px;
+    }
+    .aboutme-area .about-info ul li {
+        text-align: left;
+    }
+    .interest-area .interset-text h3 {
+        font-size: 22px;
+    }
+    .contractme-area .interset-text h3 {
+        font-size: 22px;
+    }
+    .services-area .single-services .service-content {
+        top: 45%;
+    }
+    .foter-area .foter-social ul li {
+        margin: 0;
+    }
+    .aboutme-area .about-info .btn {
+        margin-top: 0;
+        padding: 10px 15px;
+    }
+    .foter-area .copy-right h5 {
+        font-size: 14px;
+    }
+    .slider-area .slider-2 div.title2 {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .slider-area .slider-2 h1 {
+        font-size: 19px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .nivo-directionNav a {
+        top: 25%;
+    }
+    .testominial-img {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .clints-testomonial .single-testomonial .textomonial-header .testominial-img {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .clints-testomonial .single-testomonial .textomonial-header .testomonial-title {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .aboutme-area .about-info ul li {
+        margin-bottom: 10px;
+    }
+    .aboutme-area .about-info {
+        text-align: center;
+    }
+    .aboutme-area .about-info h2 {
+        line-height: 30px;
+    }
+    .aboutme-area .about-info h2::before {
+        margin: auto;
+        right: 0;
+    }
+    .interest-area .interset-text h3 {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    article.single-news {
+        text-align: left;
+    }
+    .news-area .single-news .newn-info .news-content p {
+        text-align: left;
+    }
+    .news-area .single-news .newn-info .meta-info ul li a {
+        margin-right: 15px;
+    }
+    .contractme-area .interset-text h3 {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    .row.slide-team.owl-carousel.owl-theme {
+        margin: 0;
+        text-align: center;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    /* spacing styling */
+    .section-title h2 {
+        font-size: 30px;
+        font-weight: 400
+    }
+    .section-title {
+        max-width: 300px;
+    }
+}
